@@ -7,6 +7,8 @@ body {
     height:100vh;
     overflow: hidden;
     margin: 0;
+    border: 2vh solid greenyellow;
+    border-radius: 5vh;
 }
 div {
     display: flex;
@@ -31,10 +33,13 @@ a:link {
 #jokesButton:hover {
     color:white;
 }
+#jokesButton:active {
+    text-decoration:line-through greenyellow;
+}
 #riddlesButton:hover {
     color:white;
 }
-a:active {
+#riddlesButton:active {
     text-decoration:line-through greenyellow;
 }
 #jokesButton {
@@ -53,11 +58,16 @@ a:active {
     font-size: 1.5in;
     color:aqua;
 }
-#line{
+#Random {
     color:white;
+    font-size: 10vh;
+    position:absolute;
+    left: 82.5vh;
+    top: 26vh
 }
+
 p {
     text-align: center;
-    letter-spacing: 15px;
+    letter-spacing: 2vh;
     font-size: 1.5cm;
 }
