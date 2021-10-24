@@ -1,0 +1,63 @@
+body {
+    background-color:black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    overflow: hidden;
+    margin: 0;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    overflow: hidden;
+    margin: 0;
+}
+strong {
+    color:white;
+    text-align:center;
+    font-size: 3vh;
+    letter-spacing: 5px;
+    display:block;
+    text-decoration: goldenrod underline wavy;
+}
+a:link {
+    text-decoration: none;
+}
+#jokesButton:hover {
+    color:white;
+}
+#riddlesButton:hover {
+    color:white;
+}
+a:active {
+    text-decoration:line-through greenyellow;
+}
+#jokesButton {
+    align-items: center;
+    font-size: 1.5in;
+    color:red;
+}
+#and {
+    color:greenyellow;
+    border: 2vh solid greenyellow;
+    border-radius: 5vh;
+    font-size: 10vh;
+}
+#riddlesButton {
+    align-items: center;
+    font-size: 1.5in;
+    color:aqua;
+}
+#line{
+    color:white;
+}
+p {
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 1.5cm;
+}
