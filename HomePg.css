@@ -7,8 +7,6 @@ body {
     height:100vh;
     overflow: hidden;
     margin: 0;
-    border: 2vh solid greenyellow;
-    border-radius: 5vh;
 }
 div {
     display: flex;
