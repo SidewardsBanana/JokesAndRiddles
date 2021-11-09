@@ -29,12 +29,7 @@ a:link {
 #jokesButton:active {
     text-decoration:line-through greenyellow;
 }
-#plus:hover {
-    background: rgb(255,0,245);
-    background: radial-gradient(circle, rgba(255,0,100) 10%, rgba(255,0,245,1) 15%, rgba(190,0,255,1) 25%, rgba(128,0,255,1) 35%, rgba(0,100,255,1) 45%, rgba(0,220,255,1) 55%, rgba(0,255,200,1) 65%, rgba(11,255,10,1) 75%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+/* Plus Hover Color*/
 #plus:active {
     text-decoration:line-through greenyellow;
 }
@@ -55,15 +50,10 @@ a:link {
     -webkit-text-fill-color: transparent;
 }
 #plus {
-    background: rgb(255,0,0);
-    background: radial-gradient(circle, rgba(255,0,0,1) 15%, rgba(255,0,245,1) 25%, rgba(190,0,255,1) 35%, rgba(122,5,255,1) 45%, rgba(0,100,255,1) 55%, rgba(0,220,255,1) 65%, rgba(0,255,252,1) 75%);
+    background: rgb(0,255,200);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border:2vh solid aqua;
-    border-radius: 50%;
-    font-size: 1.5in;
-    height: 100px;
-    width: 100px;
+    font-size: 0.8in;
 }
 #riddlesButton {
     font-size: 1.5in;
